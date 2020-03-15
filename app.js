@@ -44,7 +44,7 @@ const app = () =>{
     time_select.forEach(option =>{
         option.addEventListener("click", function(){
             fakeDuration = this.getAttribute("data-time");
-            time_display.textContent = `${Math.floor(fakeDuration/60)}:${pad((Math.floor(fakeDuration%60)), 2)}`
+            time_display.textContent = `${Math.floor(fakeDuration/60)}:${pad(Math.floor(fakeDuration%60), 2)}`
             song.currentTime = 0;
         });
     });
