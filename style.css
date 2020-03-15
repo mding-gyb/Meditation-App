@@ -23,6 +23,7 @@
 
 .player_container {
     position: relative;
+    
 }
 
 .player_container svg{
@@ -73,6 +74,25 @@ video {
     width: 120px;
     border-radius: 50%;
     padding: 30px;
+}
+
+
+.sound_picker button:nth-child(1):hover{
+    background: rgb(219, 230, 245);
+    
+}
+.sound_picker button:nth-child(2):hover{
+    background: rgb(219, 230, 245); 
+}
+
+.sound_picker button:nth-child(1):hover img{ 
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.sound_picker button:nth-child(2):hover img{
+    -webkit-filter: invert(1);
+   filter: invert(1);
 }
 
 .sound_picker button:nth-child(1){

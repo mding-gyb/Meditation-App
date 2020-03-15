@@ -11,9 +11,10 @@
     <div class="app">
 
             <div class="vid_container">
-                <video loop>
+                <video loop muted>
                     <source src="./video/beach.mp4" type="video/mp4" />
                 </video>
+                
             </div>
 
         <div class="time_select">
@@ -23,7 +24,7 @@
         </div>
         <div class="player_container">
             <audio class="song">
-                <source src="./sounds/rain.mp3" />
+                <source src="./sounds/beach.mp3" />
             </audio>
             <img src="./svg/play.svg" alt="play" class="play">
 
@@ -40,10 +41,10 @@
         </div>
         <div class="sound_picker">
             <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4">
-                <img src="./svg/rain.svg" alt="rain" />
+                <img  class= "img-responsive" src="./svg/rain.svg" alt="rain" />
             </button>
             <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4">
-                <img src="./svg/beach.svg" alt="beach" />
+                <img class= "img-responsive" src="./svg/beach.svg" alt="beach" />
             </button>
         </div>
     </div>

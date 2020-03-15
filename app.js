@@ -22,6 +22,7 @@ const app = () =>{
         while (s.length < size) s = "0" + s;
         return s;
     }
+    
 
     outline.style.strokeDasharray = outline_length;
     outline.style.strokeDashoffset = outline_length;
@@ -37,7 +38,9 @@ const app = () =>{
 
     // play sound
     play.addEventListener('click', () => {
+        
         check_playing(song);
+        
     });
 
     //select duration
