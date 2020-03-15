@@ -15,7 +15,7 @@ const app = () =>{
     console.log(outline_length);
 
     //Durations
-    let fakeDuration = 300;
+    let fakeDuration = 600;
 
     function pad(num, size) {
         var s = num+"";
